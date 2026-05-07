@@ -1,0 +1,65 @@
+1️⃣ Clone the Repository (First Time Only)
+
+If the project is not in your local system yet:
+
+git clone https://github.com/username/JavaSelenium_AutomationProject.git
+
+This will download the project to your system.
+
+Go inside the project:
+
+cd JavaSelenium_AutomationProject
+
+2️⃣ Check Available Branches
+git branch -a
+
+Example output:
+
+main
+remotes/origin/main
+remotes/origin/dev
+remotes/origin/feature
+
+3️⃣ Switch to Your Branch
+
+Example branch name: dev
+
+git checkout dev
+
+If branch is only in remote:
+
+git checkout -b dev origin/dev
+
+4️⃣ Pull Latest Code (Daily Activity)
+
+Before starting work every day run:
+
+git pull origin dev
+
+This will get the latest code from GitHub.
+
+5️⃣ Do Your Changes
+
+Example:
+
+Update Java files
+
+Add test cases
+
+Modify automation scripts
+-------------------------------------------------------
+
+want remove unwanted file 
+
+.gitignore
+git rm -r --cached target
+
+---------------------------------------------------------
+
+
+6️⃣ Add Changes
+git add .
+7️⃣ Commit Changes
+git commit -m "Updated login automation script"
+8️⃣ Push Code to Your Branch
+git push origin dev--- not use Main only our branch 
